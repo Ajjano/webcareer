@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+.page_cell {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+/*****************************************/
+/***********    HEADER     ***************/
+/*****************************************/
+.tell_number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #808080;
+    text-decoration: none;
+}
+
+.header__email {
+    margin-top: 3px;
+}
+
+.header__logo {
+    float: left;
+}
+
+.header__contact {
+    float: right;
+    text-align: right;
+}
+
+.header {
+    margin-top: 30px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+/*****************************************/
+/***********   END HEADER     ************/
+/*****************************************/
+
+/*****************************************/
+/***********   NAVIGATION    *************/
+/*****************************************/
+.nav__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.nav__item:hover {
+    color: #f44336;
+}
+
+.nav {
+    padding: 25px;
+}
+
+/*****************************************/
+/*********** END NAVIGATION    ***********/
+/*****************************************/
+
+/*****************************************/
+/*********** SLIDER    ***********/
+/*****************************************/
+
+.slider__item {
+    background-size: cover;
+    padding-top: 40%;
+    background: url("../images/slider1.jpg") no-repeat center;
+
+}
