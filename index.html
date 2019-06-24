@@ -7,13 +7,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="libs/owl-courosel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
     <div class="page_row">
         <div class="page_cell">
             <header class="header">
                 <div class="header__logo">
-                    <img class="logo" src="images/logo.png" alt="Логотип">
+                    <a href="" class="logo">
+                        <img class="logo__picture" src="images/logo.png" alt="Логотип">
+                    </a>
+
                 </div>
                 <div class="header__contact">
                     <p class="header__tel">
@@ -30,14 +34,14 @@
     <div class="page_row">
         <div class="page_cell">
             <div class="nav_button">
-                <button type="button" class="button_nav">
+                <button type="button" data-target="#nav_list-id" class="button_nav">
                     <span class="button-nav_line"></span>
                     <span class="button-nav_line"></span>
                     <span class="button-nav_line"></span>
                 </button>
             </div>
             <nav class="nav">
-                <ul class="nav__menu">
+                <ul class="nav__menu" id="nav_list-id">
                     <li class="nav__item">Главная</li>
                     <li class="nav__item">О нас</li>
                     <li class="nav__item">Новости</li>

@@ -16,7 +16,7 @@
  body{
      font-family: 'Roboto', sans-serif;
      font-weight: 300;
-     color: #b6b6b6;
+     color: black;
      font-size: 1rem;
      line-height: 1.375rem ;
  }
@@ -30,6 +30,7 @@
     font-weight: 700;
     color: #000;
     text-decoration: none;
+
 }
 
 .email {
@@ -48,6 +49,10 @@
     float: left;
 }
 
+.logo__picture{
+    max-width: 100%;
+}
+
 .header__contact {
     float: right;
     text-align: right;
@@ -58,6 +63,8 @@
     border-bottom: 1px solid #cccccc;
     padding-bottom: 30px;
 }
+
+
 /*****************************************/
 /***********   END HEADER     ************/
 /*****************************************/
@@ -269,7 +276,7 @@
 }
 
 .footer{
-    padding: 1.2rem;
+    padding: 1.1rem 0;
 }
 
 .button_nav{

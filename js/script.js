@@ -4,4 +4,9 @@ $(document).ready(function(){
         loop: true,
         autoplay: true
     });
+    
+    $(".button_nav").on("click", function () {
+        var  target=$(this).data("target");
+        $(target).toggleClass("nav__list--open");
+    })
 });

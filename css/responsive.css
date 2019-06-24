@@ -12,7 +12,67 @@
     .nav_button{
         display: block;
     }
+    
+    .nav__menu{
+        display: none;
+    }
+    
+    .nav__list--open{
+        display: block;
+    }
 
+    .nav__item{
+        margin:17px;
+        font-size: 14px;
+    }
 
+    .nav{
+        padding: 0;
+    }
+}
 
+@media screen and (max-width: 650px) {
+    html{
+        font-size: 70%;
+    }
+    .header__logo{
+        float: none;
+        text-align: center;
+    }
+
+    .header__contact{
+        float: none;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .slider__item{
+        padding-top: 16rem;
+    }
+
+    .grid__item{
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .adventage{
+        display: block;
+    }
+
+    .adventage__item{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .tell_number{
+        font-size: 10px ;
+    }
+
+    .email{
+        font-size: 10px;
+    }
 }
